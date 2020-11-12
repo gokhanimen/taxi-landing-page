@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;500;700&display=swap');
 
 * {
     margin: 0;
@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Roboto Slab', serif;
+    font-weight: normal;
     background-image: url(./../img/home_taxi_header.jpg);
     background-repeat: no-repeat;
 }
@@ -65,3 +66,120 @@ body {
 .navigation-item a.-active{
     color: #ffda4b;
 }
+
+/* Show Case */
+
+/* Show Case İnfo */
+.show-case {
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.show-case-content {
+    display: flex;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.show-case-info {
+    /* width: 50%; ya da flex: 1; kullanılır.*/
+    flex: 1;
+    margin-right: 50px;
+}
+
+.show-case-form {
+    /* width: 50%; ya da flex: 1; kullanılır.*/
+    flex: 1;
+}
+
+.show-case-title {
+    color: #fff;
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: 400;
+    max-width: 70%;
+    padding-bottom: 50px;
+}
+
+.show-case-message {
+    font-size: 21px;
+    line-height: 25px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.show-case-number {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #ffda4b;
+    text-decoration: none;
+    background: url(./../img/home_taxi_phone.png);
+    background-repeat: no-repeat;
+    background-position: 5px 100%;
+}
+
+/* Show Case Form */
+
+.show-case-form {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1c1611;
+    padding: 30px;
+    background-image: url(./../img/home_taxi_form_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.show-case-form-title {
+    font-size: 36px;
+    line-height: 38px;
+    font-weight: 400;
+    font-family:'Roboto Slab', serif ;
+}
+
+.show-case-form .-input {
+    height: 38px;
+    color: #444444;
+    border: 1px solid #c49b2c;
+    padding: 10px;
+}
+
+.-input:focus, textarea:focus {
+    background-color:  #f5e4b6;
+}
+
+.show-case-form-desc {
+    font-size: 16px;
+    line-height: 28px;
+    color: #6b552e;
+}
+
+.show-case-form .form-message {
+    height: 102px;
+    resize: none;
+    padding: 10px;
+    color:#444444 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-submit-btn {
+    font-size: 18.2px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 10px 15px;
+    align-self: flex-start;
+    border-radius:7px; 
+    border: none;
+    cursor: pointer;
+}
+

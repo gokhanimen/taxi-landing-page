@@ -7,14 +7,15 @@
     <title>Taxi Landing Page</title>
 </head>
 <body>
+    <!-- Header -->
     <header class="header">
         <div class="container">
             <div class="content">
-                <a href="/" class="logo"><img src="./img/taxi.png" alt="Taksi Logo"></a>
+                <a href="#show-case" class="logo"><img src="./img/taxi.png" alt="Taksi Logo"></a>
                 <nav class="navigation">
                     <ul class="navigation-list">
                         <li class="navigation-item">
-                            <a class="-active" href="#">Order</a>
+                            <a class="-active" href="#show-case">Order</a>
                         </li>
                         <li class="navigation-item">
                             <a href="#">Standarts</a>
@@ -33,5 +34,41 @@
             </div>
         </div>
     </header>
+
+    <!-- Show Case -->
+    <section id="show-case" class="show-case">
+        <div class="container">
+            <div class="show-case-content">
+                <article class="show-case-info">
+                    <h1 class="show-case-title">Taxi everywhere, Anywhere</h1>  
+                    <p class="show-case-message">Call now</p>
+                    <a class="show-case-number" href="tel:+23111222333">+23 111 222 333</a>
+                </article>
+
+                <form class="show-case-form" action="POST">
+                    <h3 class="show-case-form-title">Order taxi now</h3>
+                    
+                    <p class="show-case-form-desc">Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas.</p>
+                    
+                    <select class="choose-car -input" name="choose-car">
+                        <option value="Choose your car">Choose your car</option>
+                        <option value="Car 1">Car 1</option>
+                        <option value="Car 2">Car 2</option>
+                        <option value="Car 3">Car 3</option>
+                    </select>
+
+                    <div class="form-group">
+                        <input class="form-from -input" type="text" placeholder="From" required>
+                       
+                        <input class="form-to -input" type="text" placeholder="To" required>
+                    </div>
+
+                    <textarea name="form-message" class="form-message" placeholder="Message"></textarea>
+
+                    <input class="form-submit-btn" type="submit" value="Order Now">
+                </form>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
