@@ -6,11 +6,13 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Roboto Slab', serif;
     font-weight: normal;
-    background-image: url(./../img/home_taxi_header.jpg);
-    background-repeat: no-repeat;
 }
 
 .container {
@@ -27,6 +29,9 @@ body {
     height: 100px;
     line-height: 100px;
     width: 100%;
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0, .6);
 }
 
 .content {
@@ -71,10 +76,13 @@ body {
 
 /* Show Case İnfo */
 .show-case {
-    height: calc(100vh - 100px);
+    height: 100vh;
+    width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    background-image: url(./../img/home_taxi_header.jpg);
+    background-repeat: no-repeat;
 }
 
 .show-case-content {
@@ -83,6 +91,7 @@ body {
     align-items: center;
     justify-content: center;
     user-select: none;
+    margin-top: 60px;
 }
 
 .show-case-info {
@@ -183,3 +192,51 @@ body {
     cursor: pointer;
 }
 
+.standarts {
+    background: #FFDA4B;
+    width: 100%;
+    height: 100vh;
+    padding: 90px 0 40px 0;
+}
+
+.standarts-main-title {
+    font-size: 42px;
+    line-height: 42px;
+    text-align: center;
+    color: #1c1611;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+}
+
+.standarts-item {
+    font-size: 13px;
+    line-height: 21px;
+    color: #6b552e;
+    padding: 0.61px 0.61px;
+}
+
+.standarts-item-img {
+    max-width: 100%;
+    margin: 15px 0 30px 0;
+}
+
+.standarts-title {
+    color: #1c1611;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+.standarts-desc {
+    color: #6b552e;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    padding: 13px 50px;
+}
+
+.standarts-list {
+    display: flex;
+    text-align: center;
+}
