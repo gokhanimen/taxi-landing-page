@@ -39,8 +39,6 @@ body {
 /* Header */
 
 .header {
-    height: 100px;
-    line-height: 100px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -51,10 +49,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 60px;
 }
 
-.logo {
-    display: flex;
+.logo img{
+    height: 35px;
 }
 
 .navigation-list {
@@ -506,3 +505,15 @@ body {
     width: 100%;
     box-shadow: 0 0 4px 2px;
 }
+
+.hamburger-menu-btn {
+    display: none;
+    height: 24px;
+    width: 24px;
+    border: none;
+    user-select: none;
+    outline: none;
+    cursor: pointer;
+    background: no-repeat url(./../img/menu.png) center;
+}
+

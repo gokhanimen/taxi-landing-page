@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" media="(max-width:768px)" href="./css/responsive.css">
     <title>Taxi Landing Page</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
         <div class="container">
             <div class="content">
                 <a href="#show-case" class="logo"><img src="./img/taxi.png" alt="Taksi Logo"></a>
-                <nav class="navigation">
+                <nav id="navigation" class="navigation">
                     <ul class="navigation-list">
                         <li class="navigation-item">
                             <a class="-active" href="#show-case">Order</a>
@@ -33,6 +34,7 @@
                         </li>
                     </ul>
                 </nav>
+                <button id="hamburger-menu-btn" class="hamburger-menu-btn"></button>
             </div>
         </div>
         </header>
@@ -125,8 +127,7 @@
         <div class="container">
             <div class="row">
                 <article class="price-info">
-                    <h3 class="price-article-title">10% discounts for
-                        our constant clients</h3>
+                    <h3 class="price-article-title">10% discounts for our constant clients</h3>
 
                         <p class="price-article-paragraph">
                             Pellentesque non eleifend neque. Integer placerat ut sapien at dictum. Ut vel leo ut mauris interdum lobortis. Aliquam luctus tincidunt elit, vitae turpis duis. 
@@ -206,5 +207,22 @@
         
         <div class="copyright">© 2020 eGeTaxi - BeTheme. All Rights Reserved. eGe group</div>
     </section>
+    
+    <script>
+        const hamburgerMenu = document.querySelector("#hamburger-menu-btn");
+        const sideMenu = document.querySelector("#navigation");
+
+        hamburgerMenu.addEventListener("click", function(){
+            
+            if (sideMenu.classList.contains("-opened")) {
+                sideMenu.classList.remove("-opened")
+            }
+            else{
+                sideMenu.classList.add("-opened")
+            }
+        });
+       
+    </script>
+
 </body>
 </html>

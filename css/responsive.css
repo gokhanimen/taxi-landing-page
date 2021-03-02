@@ -1,0 +1,119 @@
+/* Phone Css */
+
+.header{
+    display: block;
+    min-height: 60px;
+}
+
+.choose-car, 
+.form-from, 
+.form-to, 
+.form-message {
+    margin-bottom: 15px;
+}
+
+.show-case-form-title {
+    font-size: 31px;
+}
+
+.show-case-form-desc {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.container{
+    max-width: 768px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.localization,.localization-map {
+    height: 600px;
+}
+
+.show-case-info{
+   flex: none;
+   width: 50%;
+   margin-right: 0;
+}
+
+.show-case-title{
+    font-size: 36px;
+    max-width: 100%;
+}
+
+.show-case-number{
+    padding-bottom: 20px;
+}
+
+/* Prices */
+
+.prices{
+    height: 50vh;
+    width: 100%;
+}
+
+.price-article-title{
+    height: 115px;
+    width: 271px;
+    margin-bottom: 30px;
+    font-size: 31px;
+}
+
+.price-article-paragraph{
+    height: 133px;
+    width: 271px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.price-cards{
+    height: 431px;
+    width: 450px;
+}
+
+.price-card1{
+    margin-right: 3px;
+    margin-left: 10px;
+    padding: 16px;
+}
+
+.price-card2{
+    padding: 16px;
+}
+
+.price-car-type{
+    height: 19px;
+    width: 160px;
+}
+
+/* About */
+
+.about-img{
+    max-width: 155px;
+}
+
+.hamburger-menu-btn {
+    display: block;
+    background: no-repeat url(./../img/menu.png) center / 22px;
+}
+
+.navigation{
+    position: absolute;
+    height: calc(100vh - 60px) ;
+    background-color: #040407;
+    width: 300px;
+    right: -300px;
+    top: 60px;
+    transition: all 200ms;
+}
+
+.navigation.-opened{
+    right: 0;
+}
+
+.navigation-list{
+    flex-direction: column;
+    justify-content: flex-start;
+}
