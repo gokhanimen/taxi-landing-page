@@ -1,0 +1,178 @@
+/* Phone CSS */
+
+.container{
+    max-width: 568px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.show-case{
+    height: auto;
+    padding-bottom: 100px;
+}
+
+.show-case-title{
+    font-size: 25px;
+    line-height: 25px;
+    min-width: 300px;
+    margin-top: 100px;
+    padding-bottom: 25px;
+}
+
+.show-case-content{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.show-case-message{
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.show-case-info{
+    width: 100%;
+    margin-bottom: 37px;
+}
+
+.show-case-number{
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 55px;
+}
+
+.show-case-form{
+    background-size: cover;
+    background-position: right;
+}
+
+.standarts {
+    height: auto;
+}
+
+.standarts .content{
+    padding-top: 40px;
+}
+
+.standarts .content{
+    height: auto;
+}
+
+.standarts-list{
+    flex-direction: column;
+}
+
+.standarts-main-title{
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.localization{
+    height: auto;
+}
+
+.localization-title{
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.prices .-vertical{
+    flex-direction: column;
+    align-items: center;
+}
+
+.prices{
+    height: auto;
+    padding-top: 90px;
+}
+
+
+.prices-content{
+    height: 100%;
+}
+
+.prices .price-info{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.price-cards{
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.price-article-title{
+    font-size: 22px;
+    line-height: 23px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.price-article-paragraph{
+    font-size: 13px;
+    line-height: 19px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.price-car-type{
+    width: auto;
+}
+
+.price-card1{
+    margin-bottom: 40px;
+}
+
+.price-card2{
+    margin-bottom: 40px;
+}
+
+.about{
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.about .row{
+    flex-direction: column;
+}
+
+.about-img-list{
+  padding-top: 15px;
+  width: auto;
+}
+
+.about-img{
+    max-width: none;
+    margin-left: 30px;
+}
+
+.about-comment{
+    width: auto;
+}
+
+.about-content{
+    height: 100%;
+}
+
+.about-comment-title{
+    font-size: 22px;
+    line-height: 23px;
+}
+
+.about-comment1{
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.about-comment2{
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.about-message{
+    height: 100px;
+}
+
+.copyright{
+    height: 30px;
+}
